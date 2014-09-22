@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="css/Site.css" />
+		<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	<head>
+<body>
+		<div class="greetings">Hallo!</div>
+		
+		<div class="btn-group" data-toggle="buttons">
+		<label class="btn btn-success active" onclick=showFirstMenu()>
+			<input type="radio" name="options" id="option1" checked /><i class="fa fa-th-list"></i> First Mode 
+		</label>
+		<label class="btn btn-success" onclick=showSecondMenu()>
+			<input type="radio" name="options" id="option2" /> <i class="fa fa-table"></i> Second Mode 
+		</label>
+		</div>
+		<div id="whenOption1" class="elementHide">First mode is activated!</div>
+		<div id="whenOption2" class="elementHide">Second mode is activated!</div>
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/button.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+</body>
+<html>
