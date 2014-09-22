@@ -1,1 +1,1 @@
-Projects for simple problems! :)
+Projects for simple problems!
